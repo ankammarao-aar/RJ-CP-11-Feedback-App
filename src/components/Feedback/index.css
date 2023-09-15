@@ -1,0 +1,76 @@
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  font-family: 'Roboto';
+  margin: 20%;
+}
+
+.feedback-card {
+  padding: 32px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ffebeb;
+  border-radius: 14px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0px;
+  padding: 6px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji-images {
+  height: 48px;
+  margin-bottom: 6px;
+}
+
+.para {
+  color: #1e293b;
+  font-size: 10px;
+}
+
+.result-card {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 32px;
+  border: 1px solid #ffebeb;
+  border-radius: 14px;
+}
+
+.love-image {
+  height: 38px;
+}
+
+.head {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.result-para {
+  color: #1e293b;
+  font-size: 14px;
+  margin-top: 12px;
+}
